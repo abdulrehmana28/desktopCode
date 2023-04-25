@@ -26,7 +26,7 @@ class Computer { // class
         this.storage = storage;
     } // constructor ends
 
-    public void intro() {
+    public void intro() { // method
         System.out.println("Your computer has the following specification : ");
     }
 } // class ends
@@ -39,7 +39,7 @@ class Dell extends Computer { // class starts
         this.battery = battery;
     } // constructor ends
 
-    @Override   //! notation to indicate Method overriding
+    @Override   //! notation to indicate Method Overriding
     public void intro() { // method
         System.out.println("Your Dell Laptop has the following specification : ");    
     }
