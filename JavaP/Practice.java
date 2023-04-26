@@ -1,6 +1,6 @@
 package javaCC.JavaP;
 
-import java.util.*;
+//import java.util.*;
 
 public class Practice {
     
