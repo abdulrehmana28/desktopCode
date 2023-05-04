@@ -6,8 +6,8 @@ public class Threading2 { //? creating thread using Runnable interface
         ThreadClass01 bullet01 = new ThreadClass01();   //! use bullet & Gun analogy
         Thread gun01 = new Thread(bullet01); 
 
-        ThreadClass02 bullet02 = new ThreadClass02();
-        Thread gun02 = new Thread(bullet02); 
+        ThreadClass02 bullet02 = new ThreadClass02(); // runable
+        Thread gun02 = new Thread(bullet02); // thread
 
         gun01.start();
         gun02.start();
