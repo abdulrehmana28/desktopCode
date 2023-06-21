@@ -5,7 +5,7 @@ public class TryCatch1 {
     public static void main(String[] args) {
         
         int number1 = 2;
-        int number2 = 6;
+        int number2 = 0;
         float result = 0;
 
         try {
