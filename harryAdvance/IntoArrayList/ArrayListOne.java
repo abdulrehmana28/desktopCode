@@ -1,4 +1,4 @@
-package javaCC.harryAdvance.IntoArrayList;
+package javaCC.harryAdvance.intoArrayList;
 
 import java.util.ArrayList;
 
@@ -15,7 +15,7 @@ public class ArrayListOne {
         marks.add(97);
 
         System.out.println(cart);  // This will print the whole arraylist
-        System.out.println(marks); // but can also use for loop with list.get(i) or foreach loop
+        System.out.println(marks); // but can also use for loop with marks.get(i) or foreach loop
     }
     
 }
