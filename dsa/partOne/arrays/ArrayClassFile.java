@@ -1,20 +1,15 @@
 package javaCC.dsa.partOne.arrays;
 
-public class ArrayClassFile {
+public class ArrayClassFile{
+
     private int[] items;
-    private int count = 0;
-    ArrayClassFile(int length) { 
-        this.length = length;
+    public ArrayClassFile(int length){
+        items = new int [length];
     }
-    
-    
 
-    public void insert(){
-        for(int i = 0; i < count; i++){
-            items[i] = items[i]
+    public void print(){
+        for(int i = 0; i < items.length; i++){
+            System.out.println(items[i]);
         }
-    }
-
-    public void print() {
     }
 }
